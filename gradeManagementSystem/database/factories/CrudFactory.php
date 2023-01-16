@@ -16,7 +16,7 @@ class CrudFactory extends Factory
         return [
             "name"=>$this->faker->name,
             "subject"=>"subject",
-            "grades"=>$this->faker->numberBetween($min = 70,$max=100)
+            "grade"=>$this->faker->numberBetween($min = 70,$max=100)
         ];
     }
 }

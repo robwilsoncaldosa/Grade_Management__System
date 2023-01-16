@@ -11,6 +11,6 @@ class crud extends Model
     protected $fillable =[
         "name",
         "subject",
-        "grades"
+        "grade"
     ];
 }

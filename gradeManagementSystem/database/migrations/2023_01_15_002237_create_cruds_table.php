@@ -17,7 +17,7 @@ class CreateCrudsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('subject');
-            $table->integer('grades');
+            $table->integer('grade');
             $table->timestamps();
         });
     }

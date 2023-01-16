@@ -38,7 +38,7 @@ class CrudController extends Controller
         return crud::create(
 ['name'=> $request -> name,
 'subject'=>$request -> subject,
-'grades'=>$request -> grades]
+'grade'=>$request -> grade]
         );
     }
 
@@ -76,7 +76,7 @@ class CrudController extends Controller
 return crud::find($id)->update(
     ['name'=>$request->name,
     'subject'=>$request->subject,
-    'grades'=>$request->grades]
+    'grade'=>$request->grade]
 );
     }
 
